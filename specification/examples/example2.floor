@@ -1,0 +1,75 @@
+{
+  "version": "1.0",
+  "creation_date": "2024-05-29",
+  "author": "Jane Smith",
+  "metadata": {
+    "project_name": "Modern Office Building",
+    "location": "456 Corporate Blvd, Business City, USA",
+    "client_info": "XYZ Corporation",
+    "building_dimensions": {
+      "length": 50,
+      "width": 30,
+      "height": 15
+    },
+    "number_of_floors": 3
+  },
+  "floors": [
+    {
+      "floor_id": "Floor 1",
+      "floor_outline": [
+        {"x": 0, "y": 0},
+        {"x": 50, "y": 0},
+        {"x": 50, "y": 30},
+        {"x": 0, "y": 30}
+      ],
+      "rooms": [
+        {
+          "room_id": "Room 101",
+          "room_name": "Conference Room",
+          "room_outline": [
+            {"x": 5, "y": 5},
+            {"x": 15, "y": 5},
+            {"x": 15, "y": 15},
+            {"x": 5, "y": 15}
+          ],
+          "walls": [
+            {
+              "wall_id": "Wall 101",
+              "start_point": {"x": 5, "y": 5, "z": 0},
+              "end_point": {"x": 15, "y": 5, "z": 0},
+              "wall_height": 15,
+              "wall_thickness": 0.5
+            },
+            {
+              "wall_id": "Wall 102",
+              "start_point": {"x": 15, "y": 5, "z": 0},
+              "end_point": {"x": 15, "y": 15, "z": 0},
+              "wall_height": 15,
+              "wall_thickness": 0.5
+            },
+            {
+              "wall_id": "Wall 103",
+              "start_point": {"x": 15, "y": 15, "z": 0},
+              "end_point": {"x": 5, "y": 15, "z": 0},
+              "wall_height": 15,
+              "wall_thickness": 0.5
+            },
+            {
+              "wall_id": "Wall 104",
+              "start_point": {"x": 5, "y": 15, "z": 0},
+              "end_point": {"x": 5, "y": 5, "z": 0},
+              "wall_height": 15,
+              "wall_thickness": 0.5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "additional_metadata": {
+    "materials": "Concrete",
+    "electrical_outlets": 20,
+    "windows": 10,
+    "doors": 5
+  }
+}
