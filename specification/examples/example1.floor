@@ -1,0 +1,54 @@
+{
+  "version": "1.0",
+  "creation_date": "2024-05-29",
+  "author": "John Doe",
+  "metadata": {
+    "project_name": "Custom House Project",
+    "location": "123 Main St, Anytown, USA",
+    "client_info": "Client Name",
+    "building_dimensions": {
+      "length": 30,
+      "width": 20,
+      "height": 10
+    },
+    "number_of_floors": 2
+  },
+  "floors": [
+    {
+      "floor_id": "Floor 1",
+      "floor_outline": [
+        {"x": 0, "y": 0},
+        {"x": 30, "y": 0},
+        {"x": 30, "y": 20},
+        {"x": 0, "y": 20}
+      ],
+      "rooms": [
+        {
+          "room_id": "Room 101",
+          "room_name": "Living Room",
+          "room_outline": [
+            {"x": 0, "y": 0},
+            {"x": 15, "y": 0},
+            {"x": 15, "y": 10},
+            {"x": 0, "y": 10}
+          ],
+          "walls": [
+            {
+              "wall_id": "Wall 101",
+              "start_point": {"x": 0, "y": 0, "z": 0},
+              "end_point": {"x": 15, "y": 0, "z": 0},
+              "wall_height": 10,
+              "wall_thickness": 0.5
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "additional_metadata": {
+    "materials": "Brick",
+    "electrical_outlets": 5,
+    "windows": 4,
+    "doors": 2
+  }
+}
