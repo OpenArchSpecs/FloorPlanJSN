@@ -7,7 +7,7 @@ The .floor file format is a JSON-based format designed to standardize architectu
 ## Creating a .floor File
 
 1. **Define the File Structure**:
-   Follow the specification to define the structure of your .floor file. Refer to [floor_format.md](specification/floor_format.md) for details.
+   Follow the specification to define the structure of your .floor file. Refer to [floor_format.md](/specification/floor_format.md) for details.
 
 2. **Populate the Data**:
    Populate the .floor file with relevant data such as floor outlines, room data, and additional metadata.
