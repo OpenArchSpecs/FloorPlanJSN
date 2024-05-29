@@ -54,8 +54,8 @@ print(parser.floors)
 
 ### Other Tools
 
-- Floor File Validator
-- Floor to SVG Converter
+- Floor File Validator (coming)
+- Floor to SVG Converter (coming)
 
 For more information, check out [other_tools.md](/tools/other_tools.md).
 
