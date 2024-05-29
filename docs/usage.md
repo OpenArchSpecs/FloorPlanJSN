@@ -77,4 +77,4 @@ Import .floor files into Blender using the custom add-on.
 •	Keep Files Updated: Always use the latest version of the .floor specification.
 •	Contribute: If you find bugs or have suggestions, consider contributing to the project.
 
-For more details, refer to the [full documentation](specification/floor_format.md).
+For more details, refer to the [full documentation](/specification/floor_format.md).
