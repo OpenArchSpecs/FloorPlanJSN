@@ -61,7 +61,7 @@ For more information, check out [other_tools.md](/tools/other_tools.md).
 
 ## Usage
 
-To learn how to create and use .floor files, refer to the usage.md document. It provides detailed instructions and best practices for working with .floor files.
+To learn how to create and use .floor files, refer to the [usage.md](docs/usage.md) document. It provides detailed instructions and best practices for working with .floor files.
 
 ## Contributing
 
