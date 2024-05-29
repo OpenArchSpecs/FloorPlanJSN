@@ -1,5 +1,3 @@
-### floor_format.md
-
 # .floor File Format Specification
 
 ## Overview
